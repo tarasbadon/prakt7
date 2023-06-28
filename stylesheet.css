@@ -1,0 +1,338 @@
+body {
+    background-color: black;
+}
+.nav-link {
+    margin: 3px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+header {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(128,128,128,0.3);
+}
+.nav-link:hover {
+    text-decoration: none;
+    color: gray;
+}
+.nav-link:hover:after {
+    text-decoration: none;
+    color: gray;
+}
+/*мейн*/
+/*enter*/
+.container-fluid {
+    padding: 0;
+}
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+
+}
+.enter-p {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.enter {
+    width: 100%;
+    height: 1000px;
+    background-image: url("img/enter-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.enter-text {
+    top: 50%;
+    max-width: 1000px;
+   text-align: center;
+    margin: 0 auto;
+    padding-top: 250px;
+
+}
+.ent {
+    border-radius: 10px;
+    padding-top: 50px;
+    height: 250px;
+    background-color: rgba(255,255,255,0.1);
+}
+/*enter*/
+/*about me*/
+h3 {
+    font-weight: 900;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    color: white;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.about-text {
+    border-radius: 5px;
+    background-color: rgba(128,128,128,0.3);
+}
+.about-img {
+    -webkit-box-shadow: 6px 8px 8px 4px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 6px 8px 8px 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 6px 8px 8px 4px rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+.about-img:hover {
+    transform: translateY(-1%);
+    transition: 0.2s ease-in;
+}
+.about-p {
+    color: white;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*about me*/
+/*skills*/
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.h2-div {
+    padding: 10px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    padding-top: 15px;
+ 
+    background-color: rgba(128,128,128,0.3);
+}
+.skills {
+    margin-bottom: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.skills-text {
+    float: right;
+}
+.name-skill {
+    font-family: Montserrat,sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+
+}
+.skills-1 {
+    color: rgba(146,146,146,1);
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.skills-2 {
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-p {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(146,146,146,1);
+
+}
+.skill-1 {
+    margin-right: 20px;
+}
+.skill-2 {
+
+}
+.skill-3 {
+margin-right: 20px;
+}
+.skill-4 {
+
+}
+.skill-img {
+    padding-top: 20px;
+    width: 400px;
+    height: 330px;
+}
+.img-name{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.logo-skill {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+/*skills*/
+/*facts*/
+.facts {
+margin-bottom: 150px;
+}
+h4 {
+   text-align: center;
+}
+.h4-div {
+    border-radius: 5px;
+
+    background-color: rgba(128,128,128,0.3);
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+
+.fact {
+    list-style-image: url("img/dot.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-left: 2rem;
+    list-style-type: square;
+    list-style-position: inside;
+}
+.fact:hover {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px)
+}
+.fact-ul {
+    color: #363537;
+    list-style: none;
+    padding: 0;
+    color: rgba(88,88,88,0.55);
+}
+.fact-ul li {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #ffff;
+    box-shadow: 2px -2px 5px 0  rgba(88,88,88,0.55),
+    -2px -2px 5px 0  rgba(88,88,88,0.55),
+    2px 2px 5px 0  rgba(88,88,88,0.55),
+    -2px 2px 5px 0 rgba(88,88,88,0.55);
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s all linear;
+}
+.fact-ul li:hover {
+    color: rgba(173,173,173,0.55);
+    border-right: 10px solid  ;
+    border-left: 10px solid transparent;
+}
+/*facts*/
+/*works*/
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.7)
+}
+.carousel {
+    margin-bottom: 20px;
+}
+.p-project-main {
+    text-decoration: none;
+    padding: 5px;
+    font-family: Montserrat,sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.p-roject-main-div {
+    justify-content: space-between;
+    display: flex;
+    border-radius: 5px;
+    background-color: rgba(128,128,128,0.3);
+    margin-bottom: 15px;
+}
+/*works*/
+/*мейн*/
+/*footer*/
+.social,
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.social li,
+.menu li{
+    list-style: none;
+}
+.social li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    opacity: 0.75;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li a:hover {
+    opacity: 1;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.1em;
+}
+footer{
+    background-color: rgba(128,128,128,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social-img {
+    width: 32px;
+    height: 32px;
+}
+/*footer*/
+/*scroll*/
+html{
+    scroll-behavior: smooth;
+}
+
+.top_top{
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 9;
+}
+.top_top a {
+    height: 50px;
+    width:70px;
+    text-align: center;
+    display: block;
+    border-radius: 7px;
+    opacity: 60%;
+}
+.top_top a span {
+    color: #f7f0f0;
+    font-size: 30px;
+    line-height: 42px;
+    cursor: pointer;
+}
+/*scroll*/
